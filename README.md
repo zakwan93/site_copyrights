@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+SiteCopyrights::Renderer.copyright 'Zakwan Bhaiyat', 'All rights reserved'
+```
 
 ## Development
 
