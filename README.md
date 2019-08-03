@@ -24,6 +24,24 @@ Or install it yourself as:
 SiteCopyrights::Renderer.copyright 'YOUR NAME', 'YOUR MSG'
 ```
 
+## Exapmle 
+
+Create a hepler method or normal ruby method and call it into view file 
+
+go to `app/helpers/application_helper.rb`
+
+```ruby
+  def copyright_generator
+    SiteCopyrights::Renderer.copyright 'Zakwan Bhaiyat', 'All rights reserved'
+  end
+```
+
+Now, call this helper method in any view page of your application just calling 
+
+```
+  <%= copyright_generator %>
+``` 
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
