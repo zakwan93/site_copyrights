@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "site_copyrights"
   spec.version       = SiteCopyrights::VERSION
   spec.authors       = ["zakwan93"]
-  spec.email         = ["zakwan_bhaiyat@yahoo.com"]
+  spec.email         = ["zakwanbhaiyat23@gmail.com"]
 
   spec.summary       = %q{Different view specific methods for application I use.}
   spec.description   = %q{Provide generates HTML data for Rails application.}
