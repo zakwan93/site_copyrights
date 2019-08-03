@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-SiteCopyrights::Renderer.copyright 'Zakwan Bhaiyat', 'All rights reserved'
+SiteCopyrights::Renderer.copyright 'YOUR NAME', 'YOUR MSG'
 ```
 
 ## Development
